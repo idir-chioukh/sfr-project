@@ -1,0 +1,13 @@
+apiVersion: configuration.konghq.com/v1
+kind: KongConsumer
+metadata:
+    name: leo
+    namespace: default
+username: leo
+custom_id: "1234"
+credentials:
+    - leo-auth
+    - another-credential
+consumerGroups:
+    - group1
+    - group2
